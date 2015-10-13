@@ -1,0 +1,25 @@
+{
+  "name": "travi",
+  "version": "1.0.0",
+  "description": "Aplikacja do pakowania sie",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entrop-/travi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entrop-/travi/issues"
+  },
+  "homepage": "https://github.com/entrop-/travi#readme"
+}

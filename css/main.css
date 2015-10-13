@@ -1,2 +1,5 @@
 body {
-  background: yellow; }
+  background: yellow;
+  font-family: arial; }
+  body h1 {
+    color: green; }

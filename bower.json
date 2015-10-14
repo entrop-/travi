@@ -1,0 +1,20 @@
+{
+  "name": "travi",
+  "version": "0.0.0",
+  "homepage": "https://github.com/entrop-/travi",
+  "authors": [
+    "Tomek Strąk <entrop.tomek@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5"
+  }
+}

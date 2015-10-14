@@ -9,22 +9,15 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 <body >
-    <div ng-controller="HeaderController" class="menu">
-        <h1>dasdasda</h1>
-        <h1 ng-click="showMenu()">pokaz menu</h1>
-        <nav ng-show="submenu">
-            <ul>
-                <li>raz</li>
-                <li>dwa</li>
-                <li>dziesiec</li>
-                <li>pińcet</li>
-                <li>sto milionuf</li>
-            </ul>
-        </nav>
-        <h1 >dasdasda</h1>
-        <h1>ssssssasda</h1>
-        <h2>podtytul</h2>
-    </div>
+    <section ng-controller="HeaderController" class="menu">
+        <ul>
+            <li><label for="trekking"><input type="checkbox" id="trekking" name="activity" />Trekking</label></li>
+            <li><label for="trekking2"><input type="checkbox" id="trekking2" name="activity" />Trekking</label></li>
+            <li><label for="trekking3"><input type="checkbox" id="trekking3" name="activity" />Trekking</label></li>
+            <li><label for="trekking4"><input type="checkbox" id="trekking4" name="activity" />Trekking</label></li>
+            <li><label for="trekking5"><input type="checkbox" id="trekking5" name="activity" />Trekking</label></li>
+        </ul>
+    </section>
 
     <script src="js/app.js"></script>
     <script src="js/controllers/HeaderController.js"></script>

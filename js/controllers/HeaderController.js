@@ -6,8 +6,9 @@
 app.controller('HeaderController', ['$scope', function($scope) {
 
     $scope.submenu = false;
+    $scope.climbing=false;
 
-    $scope.showMenu = function(){
-        $scope.submenu = true;
-    }
+    $scope.showSub = function(sub){
+        $scope[sub] = true;
+    };
 }]);

@@ -6,8 +6,6 @@ body {
     body h1.important {
       color: red; }
   body h2 {
-    text-transform: uppercase;
-    font-size: 30px;
-    text-decoration: underline; }
+    text-transform: uppercase; }
   body .menu {
     border: 1px solid blue; }

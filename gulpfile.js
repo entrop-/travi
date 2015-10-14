@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var livereload = require('gulp-livereload');
 
 gulp.task('styles', function() {
 
@@ -26,12 +27,14 @@ gulp.task('styles', function() {
             }
         ))
         .pipe(gulp.dest('./css/'))
+        .pipe(livereload())
+
 });
 
 
 
 //Watch task
 gulp.task('default',function() {
-    //livereload.listen();
+    livereload.listen();
     gulp.watch('css/*.scss',['styles']);
 });

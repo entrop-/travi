@@ -5,4 +5,5 @@
  */
 
 
-var a = 1;
+//angular
+var app = angular.module("Travi",[]);
